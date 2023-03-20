@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
   * main - Entry point
@@ -11,7 +12,7 @@ int main(void)
 {
 	char alphbt = 'a';
 
-	while (alphbt < 'z')
+	while (alphbt <= 'z')
 	{
 		if (alphbt != 'q' && alphbt !='e')
 		putchar(alphbt);
