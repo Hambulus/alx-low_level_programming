@@ -11,11 +11,17 @@
 int main(void)
 {
 	int hexnum = '0';
+	char alph = 'a';
 
 	while (hexnum <= '9')
 	{
 		putchar(hexnum);
 		hexnum++;
+	}
+	while (alph <= 'f')
+	{
+		putchar(alph);
+		alph++;
 	}
 	putchar('\n');
 	return (0);
