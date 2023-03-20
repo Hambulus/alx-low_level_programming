@@ -14,7 +14,7 @@ int main(void)
 
 	while (alphbt <= 'z')
 	{
-		if (alphbt != 'q' && alphbt !='e')
+		if (alphbt != 'q' && alphbt != 'e')
 		putchar(alphbt);
 		alphbt++;
 	}
