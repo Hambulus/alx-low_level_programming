@@ -2,17 +2,15 @@
 #include "main.h"
 
 /**
-  * abs - Prints absolute values
+  * _abs - Prints absolute values
   *
   * printf - prints output from variables
   *
   * Return: Always 0 (Success)
   */
-int _abs(int)
+int _abs(int c)
 {
-	int a;
-
-	a = _abs(-3);
-	printf("%d\n", a);
+	c = _abs(-3);
+	printf("%d\n", c);
 	return (0);
 }
