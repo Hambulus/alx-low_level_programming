@@ -13,7 +13,10 @@
   */
 int _abs(int c)
 {
-	c = _abs(-3);
+	int num;
+
+	num = -5;
+	c = _abs(num);
 	printf("%d\n", c);
 	return (0);
 }
