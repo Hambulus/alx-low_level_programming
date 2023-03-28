@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <limits.h>
 #include "main.h"
 
 /**
   * _abs - Prints absolute values
+  *
+  * @c: Parameter to the function
   *
   * printf - prints output from variables
   *
