@@ -3,6 +3,8 @@
 /**
   * _islower - Entry point
   *
+  * @c: Parameter to the function
+  *
   * _putchar - prints out a character
   *
   * Return: Always 0 (Success)
