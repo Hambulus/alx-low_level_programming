@@ -3,14 +3,21 @@
 int print_sign(int n)
 {
 	int a = 0;
-	int b = '+';
-	int c = '-';
 
 	if (n > a)
-		_putchar(b);
+	{
+		_putchar('+');
+		return (1);
+	}
 	if (n == a)
-		_putchar(a);
+	{
+		_putchar('0');
+		return (0);
+	}
 	if (n < a)
-		_putchar(c);
+	{
+		_putchar('-');
+		return (1);
+	}
 	return (0);
 }
