@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+  * print_sign - Prints a sign
+  *
+  * _putchar - Outputs a character
+  *
+  * Return: Always  0 (Success)
+  */
 int print_sign(int n)
 {
 	int a = 0;
