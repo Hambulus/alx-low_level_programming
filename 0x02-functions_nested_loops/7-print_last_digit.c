@@ -10,8 +10,11 @@
 int print_last_digit(int c)
 {
 	int num;
+	int d;
 
 	num = 700;
 	c = (num % 10);
+	d = (num % 10);
 	return (c);
+	return (d);
 }
