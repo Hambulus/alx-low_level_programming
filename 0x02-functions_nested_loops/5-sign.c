@@ -3,6 +3,8 @@
 /**
   * print_sign - Prints a sign
   *
+  * @n: Parameter for function
+  *
   * _putchar - Outputs a character
   *
   * Return: Always  0 (Success)
