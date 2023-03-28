@@ -13,10 +13,10 @@
   */
 int _abs(int c)
 {
-	int num;
-
-	num = -5;
-	c = _abs(num);
-	printf("%d\n", c);
-	return (0);
+	if (c > 0)
+		return (c);
+	if (c < 0)
+		return (-c);
+	else
+		return (c);
 }
