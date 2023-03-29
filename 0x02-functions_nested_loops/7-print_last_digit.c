@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
   * print_last_digit - Prints last digit
@@ -12,10 +12,14 @@
   */
 int print_last_digit(int c)
 {
-	int num;
-
-	num = 48;
-	c = num % 10;
-	printf("%d%d\n", c, c);
-	return (0);
+	if (c > 0)
+		c = c % 10;
+	printf("%d%d", c, c);
+	if (c == 0)
+		c = c % 10;
+	printf("%d%d", c, c);
+	if (c < 0)
+		c = c % 10;
+	printf("%d%d", c, c);
+	return (1);
 }
