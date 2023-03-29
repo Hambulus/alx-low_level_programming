@@ -14,12 +14,12 @@ int print_last_digit(int c)
 {
 	if (c > 0)
 		c = c % 10;
-	printf("%d%d", c, c);
+	printf("%d", c);
 	if (c == 0)
 		c = c % 10;
-	printf("%d%d", c, c);
+	printf("%d", c);
 	if (c < 0)
 		c = c % 10;
-	printf("%d%d", c, c);
-	return (1);
+	printf("%d", c);
+	return (0);
 }
