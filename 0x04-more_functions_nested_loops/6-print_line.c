@@ -5,6 +5,8 @@
   *
   * _putchar - outputs character from function
   *
+  * @n: Parameter for the function
+  *
   * Return: Always 0 (Success)
   */
 void print_line(int n)
