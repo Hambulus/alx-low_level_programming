@@ -3,7 +3,7 @@
 /**
   * print_diagonal - Prints a diagonal line
   *
-  * @n - parameter of the function
+  * @n: parameter of the function
   *
   * _putchar - ouptputs a character to the terminal
   *
