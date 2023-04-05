@@ -5,6 +5,8 @@
 /**
   * reset_to_98 - function resets variable to 98
   *
+  * @n: Parameter to the function
+  *
   * _putchar - outputs character from function
   *
   * Return: Always 0 (Success)

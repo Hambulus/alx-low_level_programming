@@ -5,6 +5,10 @@
 /**
   * swap_int - function swaps the output of two variables
   *
+  * @a: Parameter to the function
+  *
+  * @b: Parameter to the function
+  *
   * _putchar - outputs characters from a function
   *
   * Return: Always 0 (Success)
