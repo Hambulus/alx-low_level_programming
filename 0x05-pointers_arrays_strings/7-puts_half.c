@@ -5,6 +5,8 @@
 /**
   * puts_half - prints the second half of the string
   *
+  * @*str: Parameter to the function
+  *
   * _putchar - prints out characters
   *
   * Return: Always 0 (Success)
