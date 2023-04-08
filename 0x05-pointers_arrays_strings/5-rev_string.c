@@ -11,14 +11,12 @@
   */
 void rev_string(char *s)
 {
-	int i = 0;
+	int i;
 
-	if (i >= 0)
-	{
-		for (i = 9; i >= 0; i--)
-			_putchar(s[i]);
-		_putchar('\n');
-	}
-	else
-		_putchar('\n');
+	for (i = 0; i <= 9; i++)
+		_putchar(s[i]);
+	_putchar('\n');
+	for (i = 9; i >= 0; i--)
+		_putchar(s[i]);
+	_putchar('\n');
 }
