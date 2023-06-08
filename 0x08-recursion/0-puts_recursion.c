@@ -3,8 +3,8 @@
 
 /**
  * main - Entry point
- * _puts_recursion: function that prints a sting
- * s: Parameter to the function
+ * *_puts_recursion - function that prints a sting
+ * @s: Parameter to the function
  * Return: Always 0
  */
 void _puts_recursion(char *s)
